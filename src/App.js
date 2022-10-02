@@ -40,7 +40,7 @@ function App() {
           <p className='text-center'><strong>Porcentagem total apurada: </strong>{totalApuradoPct}%</p>
         </div>
 
-        {parseInt(totalApuradoPct) === 100 ? parseFloat(votosValidosPct) >= 50  ? <p className='text-center col-span-2 text-green-400'>Eleito em primeiro turno até o momento</p> : <p className='text-center col-span-2 text-red-400'>Terá segundo turno</p> : null}
+        {parseInt(totalApuradoPct) === 100 ? parseFloat(votosValidosPct) >= 50  ? <p className='text-center col-span-2 text-green-400'>Eleito em primeiro turno até o momento</p> : <p className='text-center col-span-2 text-red-400'>Terá segundo turno</p> : <p className='text-center col-span-2'>Ainda não</p>}
       </div>
 
       <div className='fixed bottom-4 left-4 text-sm'>
