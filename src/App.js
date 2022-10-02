@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App-header h-full relative">
-      <h1 className='font-mono text-8xl mb-10 text-red-700 font-bold'>Lula já está eleito?</h1>
+      <h1 className='font-mono text-xl md:text-8xl mb-10 text-red-700 font-bold'>Lula já está eleito?</h1>
 
       <div className='grid grid-cols-2 gap-y-5 gap-x-3 bg-gray-700 p-10 rounded-lg'>
         <div>
